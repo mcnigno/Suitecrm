@@ -18,3 +18,17 @@
 div.moduleTitle {
     text-align: center;
 }
+
+.alert .alert-link {
+    font-weight: 700;
+    color: white;
+}
+.desktop_notifications .has-alerts .alert-header {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #2d917e;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    line-height: 20px;
+    text-align: center;
+}
