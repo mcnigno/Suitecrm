@@ -1,1 +1,0 @@
-a:4:{s:7:"jsCache";a:0:{}s:8:"cssCache";a:0:{}s:10:"imageCache";a:2:{s:9:"blank.png";s:31:"themes/default/images/blank.gif";s:14:"jscalendar.gif";s:43:"themes/SuitePImproved/images/jscalendar.gif";}s:13:"templateCache";a:0:{}}
