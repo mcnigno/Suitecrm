@@ -1,0 +1,1 @@
+a:4:{s:7:"jsCache";a:0:{}s:8:"cssCache";a:0:{}s:10:"imageCache";a:4:{s:14:"p_up_arrow.png";s:35:"themes/SuiteP/images/p_up_arrow.png";s:12:"Meetings.gif";s:33:"themes/SuiteP/images/Meetings.svg";s:9:"Users.gif";s:30:"themes/SuiteP/images/Users.gif";s:17:"delete_inline.gif";s:39:"themes/default/images/delete_inline.gif";}s:13:"templateCache";a:0:{}}
