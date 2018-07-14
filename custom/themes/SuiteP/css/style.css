@@ -1,3 +1,16 @@
-.navbar-inverse {
-    background: black;
+.moduleTitle .module-title-text {
+    height: -0px;
+    padding-left: 2%;
+    line-height: 13px;
+    margin-bottom: 0px;
+}
+.moduleTitle h2 {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    color: #534d64;
+    margin: 0 0 12px 0;
+    float: left;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
