@@ -1,0 +1,56 @@
+<?php
+// created: 2018-02-17 14:38:09
+$layout_defs = array (
+  'name' => 
+  array (
+    'vname' => 'LBL_NAME',
+    'widget_class' => 'SubPanelDetailViewLink',
+    'width' => '45%',
+    'default' => true,
+  ),
+  'date_modified' => 
+  array (
+    'vname' => 'LBL_DATE_MODIFIED',
+    'width' => '45%',
+    'default' => true,
+  ),
+  'payments_type_c' => 
+  array (
+    'type' => 'radioenum',
+    'default' => true,
+    'studio' => 'visible',
+    'vname' => 'LBL_PAYMENTS_TYPE',
+    'width' => '10%',
+  ),
+  'date_planned_c' => 
+  array (
+    'type' => 'date',
+    'default' => true,
+    'vname' => 'LBL_DATE_PLANNED',
+    'width' => '10%',
+  ),
+  'payments_status_c' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'studio' => 'visible',
+    'vname' => 'LBL_PAYMENTS_STATUS',
+    'width' => '10%',
+  ),
+  'edit_button' => 
+  array (
+    'vname' => 'LBL_EDIT_BUTTON',
+    'widget_class' => 'SubPanelEditButton',
+    'module' => 'fin_Payments',
+    'width' => '4%',
+    'default' => true,
+  ),
+  'remove_button' => 
+  array (
+    'vname' => 'LBL_REMOVE',
+    'widget_class' => 'SubPanelRemoveButton',
+    'module' => 'fin_Payments',
+    'width' => '5%',
+    'default' => true,
+  ),
+);

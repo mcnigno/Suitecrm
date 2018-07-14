@@ -1,0 +1,26 @@
+<?php
+// created: 2018-06-26 15:58:26
+$mod_strings = array (
+  'LBL_QUANTITY' => 'Quantity',
+  'LBL_STATUS' => 'Status',
+  'LBL_PART_NUMBER' => 'part number',
+  'LBL_PRODUCT_ID' => 'product id',
+  'LBL_PRICE' => 'price',
+  'LBL_COST' => 'Cost',
+  'LBL_PARENT_TYPE' => 'Parent Type',
+  'LBL_NAME' => 'Name',
+  'LBL_HOURS' => 'Time Category',
+  'LBL_EDITVIEW_PANEL1' => 'The Bill',
+  'LBL_DOC_QUANTITY' => 'Doc. Quantity',
+  'LBL_EDITVIEW_PANEL2' => 'New Panel 2',
+  'LBL_B_DATE' => 'Date',
+  'LBL_QUICKCREATE_PANEL1' => 'Other',
+  'LBL_BILL_DATE' => 'Bill Date',
+  'LBL_PROJECTTASK_BILL_BILLABLES_1_FROM_PROJECTTASK_TITLE' => 'PRJ TASK',
+  'LBL_QUICKCREATE_PANEL2' => 'New Panel 2',
+  'LBL_BILL_STATUS' => 'Bill Status',
+  'LBL_EDITVIEW_PANEL3' => 'New Panel 3',
+  'LBL_BILLAMI' => 'BillaMi',
+  'LBL_TOT_EST_TIME' => 'Estimated Time',
+  'LBL_CUO' => 'CUO',
+);

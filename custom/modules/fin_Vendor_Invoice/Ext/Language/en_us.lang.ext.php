@@ -1,0 +1,13 @@
+<?php 
+ //WARNING: The contents of this file are auto-generated
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_ACCOUNTS_FIN_VENDOR_INVOICE_1_FROM_ACCOUNTS_TITLE'] = 'Accounts';
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_ACCOUNTS_FIN_VENDOR_INVOICE_1_FROM_ACCOUNTS_TITLE'] = 'Accounts';
+$mod_strings['LBL_FIN_VENDOR_INVOICE_FIN_PAYMENTS_1_FROM_FIN_PAYMENTS_TITLE'] = 'Payments';
+
+?>

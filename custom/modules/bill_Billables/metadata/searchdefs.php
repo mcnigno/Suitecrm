@@ -1,0 +1,100 @@
+<?php
+$module_name = 'bill_Billables';
+$searchdefs [$module_name] = 
+array (
+  'layout' => 
+  array (
+    'basic_search' => 
+    array (
+      0 => 'name',
+      1 => 
+      array (
+        'name' => 'current_user_only',
+        'label' => 'LBL_CURRENT_USER_FILTER',
+        'type' => 'bool',
+      ),
+    ),
+    'advanced_search' => 
+    array (
+      'name' => 
+      array (
+        'name' => 'name',
+        'default' => true,
+        'width' => '10%',
+      ),
+      'b_date_c' => 
+      array (
+        'type' => 'date',
+        'default' => true,
+        'label' => 'LBL_B_DATE',
+        'width' => '10%',
+        'name' => 'b_date_c',
+      ),
+      'assigned_user_id' => 
+      array (
+        'name' => 'assigned_user_id',
+        'label' => 'LBL_ASSIGNED_TO',
+        'type' => 'enum',
+        'function' => 
+        array (
+          'name' => 'get_user_array',
+          'params' => 
+          array (
+            0 => false,
+          ),
+        ),
+        'default' => true,
+        'width' => '10%',
+      ),
+      'projecttask_bill_billables_1_name' => 
+      array (
+        'type' => 'relate',
+        'link' => true,
+        'label' => 'LBL_PROJECTTASK_BILL_BILLABLES_1_FROM_PROJECTTASK_TITLE',
+        'id' => 'PROJECTTASK_BILL_BILLABLES_1PROJECTTASK_IDA',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'projecttask_bill_billables_1_name',
+      ),
+      'aos_products_bill_billables_1_name' => 
+      array (
+        'type' => 'relate',
+        'link' => true,
+        'label' => 'LBL_AOS_PRODUCTS_BILL_BILLABLES_1_FROM_AOS_PRODUCTS_TITLE',
+        'id' => 'AOS_PRODUCTS_BILL_BILLABLES_1AOS_PRODUCTS_IDA',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'aos_products_bill_billables_1_name',
+      ),
+      'bill_status_c' => 
+      array (
+        'type' => 'dynamicenum',
+        'default' => true,
+        'studio' => 'visible',
+        'label' => 'LBL_BILL_STATUS',
+        'width' => '10%',
+        'name' => 'bill_status_c',
+      ),
+      'current_user_only' => 
+      array (
+        'label' => 'LBL_CURRENT_USER_FILTER',
+        'type' => 'bool',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'current_user_only',
+      ),
+    ),
+  ),
+  'templateMeta' => 
+  array (
+    'maxColumns' => '3',
+    'maxColumnsBasic' => '4',
+    'widths' => 
+    array (
+      'label' => '10',
+      'field' => '30',
+    ),
+  ),
+);
+;
+?>

@@ -1,0 +1,40 @@
+<?php
+// created: 2018-01-02 18:14:02
+$layout_defs = array (
+  'date_modified' => 
+  array (
+    'vname' => 'LBL_DATE_MODIFIED',
+    'width' => '15%',
+    'default' => true,
+  ),
+  'name' => 
+  array (
+    'vname' => 'LBL_NAME',
+    'widget_class' => 'SubPanelDetailViewLink',
+    'width' => '60%',
+    'default' => true,
+  ),
+  'quantity_c' => 
+  array (
+    'type' => 'decimal',
+    'default' => true,
+    'vname' => 'LBL_QUANTITY',
+    'width' => '10%',
+  ),
+  'edit_button' => 
+  array (
+    'vname' => 'LBL_EDIT_BUTTON',
+    'widget_class' => 'SubPanelEditButton',
+    'module' => 'bill_Billables',
+    'width' => '4%',
+    'default' => true,
+  ),
+  'remove_button' => 
+  array (
+    'vname' => 'LBL_REMOVE',
+    'widget_class' => 'SubPanelRemoveButton',
+    'module' => 'bill_Billables',
+    'width' => '5%',
+    'default' => true,
+  ),
+);
