@@ -1253,8 +1253,12 @@ class Email extends Basic
             if (isset($ie->id) && !$ie->isPop3Protocol() && $mail->oe->mail_smtptype != 'gmail') {
                 $sentFolder = $ie->get_stored_options("sentFolder");
                 if (!empty($sentFolder)) {
-                    $data = $mail->CreateHeader() . "\r\n" . $mail->CreateBody() . "\r\n";
-                    $ie->mailbox = $sentFolder;
+                    //$data = $mail->CreateHeader() . "\r\n" . $mail->CreateBody() . "\r\n";
+                    $emailbody = $mail->CreateBody();
+		    $emailheader = $mail->CreateHeader();
+		    $data =  $emailheader. "\r\n" . $emailbody . "\r\n";
+		    
+		    $ie->mailbox = $sentFolder;
                     if ($ie->connectMailserver() == 'true') {
                         $connectString = $ie->getConnectString($ie->getServiceString(), $ie->mailbox);
                         $returnData = imap_append($ie->conn, $connectString, $data, "\\Seen");
