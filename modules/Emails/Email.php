@@ -1261,7 +1261,10 @@ class Email extends Basic
 		    $ie->mailbox = $sentFolder;
                     if ($ie->connectMailserver() == 'true') {
                         $connectString = $ie->getConnectString($ie->getServiceString(), $ie->mailbox);
-                        $returnData = imap_append($ie->conn, $connectString, $data, "\\Seen");
+                        //$returnData = imap_append($ie->conn, $connectString, $data, "\\Seen");
+                        $returnData = imap_append($ie->conn, $connectString, $mail->getSentMIMEMessage());
+                        imap_close($ie->conn);
+                        
                         if (!$returnData) {
                             $GLOBALS['log']->debug("could not copy email to {$ie->mailbox} for {$ie->name}");
                         } // if
