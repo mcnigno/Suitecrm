@@ -28,6 +28,18 @@ $dictionary["AOS_Products"]["fields"]["aos_products_tasks_1"] = array (
 );
 
 
+// created: 2018-07-22 14:51:59
+$dictionary["AOS_Products"]["fields"]["aos_products_audit_auditmetrics_1"] = array (
+  'name' => 'aos_products_audit_auditmetrics_1',
+  'type' => 'link',
+  'relationship' => 'aos_products_audit_auditmetrics_1',
+  'source' => 'non-db',
+  'module' => 'audit_AuditMetrics',
+  'bean_name' => 'audit_AuditMetrics',
+  'vname' => 'LBL_AOS_PRODUCTS_AUDIT_AUDITMETRICS_1_FROM_AUDIT_AUDITMETRICS_TITLE',
+);
+
+
  // created: 2018-02-19 12:23:52
 $dictionary['AOS_Products']['fields']['code_c']['inline_edit']='1';
 $dictionary['AOS_Products']['fields']['code_c']['labelValue']='Code';

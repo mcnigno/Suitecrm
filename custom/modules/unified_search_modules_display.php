@@ -1,5 +1,5 @@
 <?php
-// created: 2018-07-14 12:06:04
+// created: 2018-08-30 10:12:03
 $unified_search_modules_display = array (
   'Accounts' => 
   array (
@@ -34,6 +34,10 @@ $unified_search_modules_display = array (
     'visible' => true,
   ),
   'Notes' => 
+  array (
+    'visible' => true,
+  ),
+  'AOK_Knowledge_Base_Categories' => 
   array (
     'visible' => true,
   ),

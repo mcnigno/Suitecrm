@@ -68,11 +68,19 @@ $GLOBALS['app_list_strings']['project_task_status_options']=array (
   'Approved' => 'Approved',
   'NotApproved' => 'Not Approved',
 );
-
+$GLOBALS['app_list_strings']['Invoice_pay_mod']=array (
+  '30GGDFFM' => '30 GG DFFM',
+  '60GGDFFM' => '60 GG DFFM',
+  '' => '',
+  'RIBA30GGDFFM' => 'RIBA 30 GG DFFM',
+  'RIBA60GGDFFM' => 'RIBA 60 GG DFFM',
+  'RID' => 'RID',
+);
 $GLOBALS['app_list_strings']['CUO_list']=array (
   142 => '142',
   118 => '118',
   120 => '120',
+  135 => '135',
   156 => '156',
   162 => '162',
   172 => '172',
@@ -82,12 +90,16 @@ $GLOBALS['app_list_strings']['CUO_list']=array (
   425 => '425',
   433 => '433',
 );
-
-$GLOBALS['app_list_strings']['Invoice_pay_mod']=array (
-  '30GGDFFM' => '30 GG DFFM',
-  '60GGDFFM' => '60 GG DFFM',
-  '' => '',
-  'RIBA30GGDFFM' => 'RIBA 30 GG DFFM',
-  'RIBA60GGDFFM' => 'RIBA 60 GG DFFM',
-  'RID' => 'RID',
+$GLOBALS['app_list_strings']['parent_type_display']=array (
+  'Accounts' => 'Account',
+  'Contacts' => 'Contact',
+  'Tasks' => 'Task',
+  'Opportunities' => 'Opportunity',
+  'Bugs' => 'Bug',
+  'Cases' => 'Case',
+  'Leads' => 'Lead',
+  'Project' => 'Project',
+  'ProjectTask' => 'Project Task',
+  'Prospects' => 'Target',
+  'AOK_KnowledgeBase' => 'Knowledge Base',
 );

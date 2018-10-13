@@ -48,6 +48,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL1' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'collapsed',
+        ),
       ),
       'syncDetailEditViews' => true,
     ),
@@ -77,6 +82,30 @@ array (
           array (
             'name' => 'cuo_c',
             'label' => 'LBL_CUO',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'project_audit_auditmetrics_2_name',
+          ),
+          1 => 
+          array (
+            'name' => 'audit_status_c',
+            'studio' => 'visible',
+            'label' => 'LBL_AUDIT_STATUS',
+          ),
+        ),
+      ),
+      'lbl_editview_panel1' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'prj_email_c',
+            'label' => 'LBL_PRJ_EMAIL',
           ),
         ),
       ),

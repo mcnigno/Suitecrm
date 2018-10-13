@@ -2,6 +2,12 @@
  //WARNING: The contents of this file are auto-generated
 
 
+ // created: 2018-10-13 18:53:43
+$dictionary['Task']['fields']['html_c']['inline_edit']='1';
+$dictionary['Task']['fields']['html_c']['labelValue']='Html';
+
+ 
+
  // created: 2018-01-02 17:40:12
 $dictionary['Task']['fields']['name']['required']=false;
 $dictionary['Task']['fields']['name']['inline_edit']=true;
@@ -9,6 +15,12 @@ $dictionary['Task']['fields']['name']['merge_filter']='disabled';
 $dictionary['Task']['fields']['name']['unified_search']=false;
 $dictionary['Task']['fields']['name']['full_text_search']=array (
 );
+
+ 
+
+ // created: 2018-10-13 19:21:51
+$dictionary['Task']['fields']['activity_field_c']['inline_edit']='1';
+$dictionary['Task']['fields']['activity_field_c']['labelValue']='activity field';
 
  
 

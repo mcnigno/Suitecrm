@@ -42,7 +42,7 @@
 $relationships = array (
   'fin_cost_centers_modified_user' => 
   array (
-    'id' => '501d5c2e-0632-ed30-92b6-5a8807a30b36',
+    'id' => '9f03b828-c07b-29db-4c2a-5b547cf939f7',
     'relationship_name' => 'fin_cost_centers_modified_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -68,7 +68,7 @@ $relationships = array (
   ),
   'fin_cost_centers_created_by' => 
   array (
-    'id' => '5053faa9-a4f4-4dcd-f4c0-5a8807f4ee1c',
+    'id' => '9f4cdd6f-768d-4051-8af0-5b547c8e0dc6',
     'relationship_name' => 'fin_cost_centers_created_by',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -94,7 +94,7 @@ $relationships = array (
   ),
   'fin_cost_centers_assigned_user' => 
   array (
-    'id' => '508d9609-38e3-7ef2-189a-5a88074ac8ca',
+    'id' => '9f793806-cdda-9a75-83fa-5b547c83c578',
     'relationship_name' => 'fin_cost_centers_assigned_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -120,7 +120,7 @@ $relationships = array (
   ),
   'securitygroups_fin_cost_centers' => 
   array (
-    'id' => '50ef0db3-d330-4659-9308-5a8807d697ba',
+    'id' => '9fa6ba70-f324-61db-2a8f-5b547c98235f',
     'relationship_name' => 'securitygroups_fin_cost_centers',
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
@@ -146,18 +146,45 @@ $relationships = array (
   ),
   'fin_cost_centers_fin_payments_1' => 
   array (
-    'rhs_label' => 'Payments',
-    'lhs_label' => 'Cost Centers',
+    'id' => 'c3571c33-e8a3-ca4d-9b3c-5b547c60ba74',
+    'relationship_name' => 'fin_cost_centers_fin_payments_1',
+    'lhs_module' => 'fin_Cost_Centers',
+    'lhs_table' => 'fin_cost_centers',
+    'lhs_key' => 'id',
+    'rhs_module' => 'fin_Payments',
+    'rhs_table' => 'fin_payments',
+    'rhs_key' => 'id',
+    'join_table' => 'fin_cost_centers_fin_payments_1_c',
+    'join_key_lhs' => 'fin_cost_centers_fin_payments_1fin_cost_centers_ida',
+    'join_key_rhs' => 'fin_cost_centers_fin_payments_1fin_payments_idb',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => NULL,
+    'relationship_role_column_value' => NULL,
+    'reverse' => '0',
+    'deleted' => '0',
+    'readonly' => true,
+    'rhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
+    'from_studio' => true,
+    'is_custom' => true,
+    'relationship_only' => false,
+    'for_activities' => false,
+  ),
+  'fin_cost_centers_audit_auditmetrics_1' => 
+  array (
+    'rhs_label' => 'Audit Metrics',
+    'lhs_label' => 'Budget Centres',
+    'lhs_subpanel' => 'default',
     'rhs_subpanel' => 'default',
     'lhs_module' => 'fin_Cost_Centers',
-    'rhs_module' => 'fin_Payments',
-    'relationship_type' => 'one-to-many',
+    'rhs_module' => 'audit_AuditMetrics',
+    'relationship_type' => 'many-to-many',
     'readonly' => true,
     'deleted' => false,
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
     'from_studio' => true,
-    'relationship_name' => 'fin_cost_centers_fin_payments_1',
+    'relationship_name' => 'fin_cost_centers_audit_auditmetrics_1',
   ),
 );

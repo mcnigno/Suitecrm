@@ -7,6 +7,18 @@ $dictionary['Account']['fields']['jjwg_maps_address_c']['inline_edit']=1;
 
  
 
+// created: 2018-07-22 14:46:39
+$dictionary["Account"]["fields"]["accounts_audit_auditmetrics_1"] = array (
+  'name' => 'accounts_audit_auditmetrics_1',
+  'type' => 'link',
+  'relationship' => 'accounts_audit_auditmetrics_1',
+  'source' => 'non-db',
+  'module' => 'audit_AuditMetrics',
+  'bean_name' => 'audit_AuditMetrics',
+  'vname' => 'LBL_ACCOUNTS_AUDIT_AUDITMETRICS_1_FROM_AUDIT_AUDITMETRICS_TITLE',
+);
+
+
  // created: 2018-06-22 15:06:09
 $dictionary['Account']['fields']['payment_term_c']['inline_edit']='1';
 $dictionary['Account']['fields']['payment_term_c']['labelValue']='Payment Term';

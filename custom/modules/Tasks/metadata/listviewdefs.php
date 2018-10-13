@@ -20,19 +20,13 @@ array (
     'link' => true,
     'default' => true,
   ),
-  'CONTACT_NAME' => 
+  'DESCRIPTION' => 
   array (
-    'width' => '20%',
-    'label' => 'LBL_LIST_CONTACT',
-    'link' => true,
-    'id' => 'CONTACT_ID',
-    'module' => 'Contacts',
+    'type' => 'text',
+    'label' => 'LBL_DESCRIPTION',
+    'sortable' => false,
+    'width' => '10%',
     'default' => true,
-    'ACLTag' => 'CONTACT',
-    'related_fields' => 
-    array (
-      0 => 'contact_id',
-    ),
   ),
   'PARENT_NAME' => 
   array (
@@ -73,12 +67,6 @@ array (
     'id' => 'ASSIGNED_USER_ID',
     'default' => true,
   ),
-  'DATE_ENTERED' => 
-  array (
-    'width' => '10%',
-    'label' => 'LBL_DATE_ENTERED',
-    'default' => true,
-  ),
   'PRIORITY' => 
   array (
     'type' => 'enum',
@@ -94,14 +82,6 @@ array (
       'listview' => true,
     ),
     'label' => 'LBL_CONTACT_PHONE',
-    'width' => '10%',
-    'default' => false,
-  ),
-  'DESCRIPTION' => 
-  array (
-    'type' => 'text',
-    'label' => 'LBL_DESCRIPTION',
-    'sortable' => false,
     'width' => '10%',
     'default' => false,
   ),
@@ -156,6 +136,26 @@ array (
     'width' => '10%',
     'label' => 'LBL_LIST_STATUS',
     'link' => false,
+    'default' => false,
+  ),
+  'CONTACT_NAME' => 
+  array (
+    'width' => '20%',
+    'label' => 'LBL_LIST_CONTACT',
+    'link' => true,
+    'id' => 'CONTACT_ID',
+    'module' => 'Contacts',
+    'default' => false,
+    'ACLTag' => 'CONTACT',
+    'related_fields' => 
+    array (
+      0 => 'contact_id',
+    ),
+  ),
+  'DATE_ENTERED' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_DATE_ENTERED',
     'default' => false,
   ),
   'PARENT_TYPE' => 

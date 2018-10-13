@@ -40,35 +40,9 @@
 
 
 $relationships = array (
-  'aos_products_bill_billables_1' => 
-  array (
-    'id' => '3971cabe-a6bf-4d9b-f890-5a4bb44b2e7d',
-    'relationship_name' => 'aos_products_bill_billables_1',
-    'lhs_module' => 'AOS_Products',
-    'lhs_table' => 'aos_products',
-    'lhs_key' => 'id',
-    'rhs_module' => 'bill_Billables',
-    'rhs_table' => 'bill_billables',
-    'rhs_key' => 'id',
-    'join_table' => 'aos_products_bill_billables_1_c',
-    'join_key_lhs' => 'aos_products_bill_billables_1aos_products_ida',
-    'join_key_rhs' => 'aos_products_bill_billables_1bill_billables_idb',
-    'relationship_type' => 'one-to-many',
-    'relationship_role_column' => NULL,
-    'relationship_role_column_value' => NULL,
-    'reverse' => '0',
-    'deleted' => '0',
-    'readonly' => true,
-    'rhs_subpanel' => 'default',
-    'lhs_subpanel' => NULL,
-    'from_studio' => true,
-    'is_custom' => true,
-    'relationship_only' => false,
-    'for_activities' => false,
-  ),
   'aos_products_modified_user' => 
   array (
-    'id' => 'a01271cf-d01c-c45d-5bf6-5a4bb4d3b00b',
+    'id' => '1751aef5-1487-10eb-6473-5b547de2a6d6',
     'relationship_name' => 'aos_products_modified_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -94,7 +68,7 @@ $relationships = array (
   ),
   'aos_products_created_by' => 
   array (
-    'id' => 'a0d2adea-12bf-c000-1a54-5a4bb4aef264',
+    'id' => '179c8129-f8c5-e022-0cd8-5b547d3af499',
     'relationship_name' => 'aos_products_created_by',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -120,7 +94,7 @@ $relationships = array (
   ),
   'aos_products_assigned_user' => 
   array (
-    'id' => 'a164a4c8-25cd-a89a-a862-5a4bb49bf9c1',
+    'id' => '17c83003-88ae-13d0-fe58-5b547d454227',
     'relationship_name' => 'aos_products_assigned_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -146,7 +120,7 @@ $relationships = array (
   ),
   'securitygroups_aos_products' => 
   array (
-    'id' => 'a1c986b2-8659-83a1-6eb8-5a4bb49c9af3',
+    'id' => '17f43f7b-30dc-8d1d-77da-5b547d13cb28',
     'relationship_name' => 'securitygroups_aos_products',
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
@@ -172,7 +146,7 @@ $relationships = array (
   ),
   'product_categories' => 
   array (
-    'id' => 'a2597772-0e8b-9477-d0d1-5a4bb48b77fe',
+    'id' => '18502c2d-4a62-b466-24e4-5b547d644ba0',
     'relationship_name' => 'product_categories',
     'lhs_module' => 'AOS_Product_Categories',
     'lhs_table' => 'aos_product_categories',
@@ -198,7 +172,7 @@ $relationships = array (
   ),
   'aos_product_quotes_aos_products' => 
   array (
-    'id' => 'a54e87c3-b179-60bf-d0fc-5a4bb4adf22e',
+    'id' => '197a8424-bc4e-3646-269a-5b547d231415',
     'relationship_name' => 'aos_product_quotes_aos_products',
     'lhs_module' => 'AOS_Products',
     'lhs_table' => 'aos_products',
@@ -224,18 +198,71 @@ $relationships = array (
   ),
   'aos_products_tasks_1' => 
   array (
-    'rhs_label' => 'Tasks',
+    'id' => '5fe23f18-454a-6c08-aeba-5b547dae2498',
+    'relationship_name' => 'aos_products_tasks_1',
+    'lhs_module' => 'AOS_Products',
+    'lhs_table' => 'aos_products',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Tasks',
+    'rhs_table' => 'tasks',
+    'rhs_key' => 'id',
+    'join_table' => 'aos_products_tasks_1_c',
+    'join_key_lhs' => 'aos_products_tasks_1aos_products_ida',
+    'join_key_rhs' => 'aos_products_tasks_1tasks_idb',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => NULL,
+    'relationship_role_column_value' => NULL,
+    'reverse' => '0',
+    'deleted' => '0',
+    'readonly' => true,
+    'rhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
+    'from_studio' => true,
+    'is_custom' => true,
+    'relationship_only' => false,
+    'for_activities' => false,
+  ),
+  'aos_products_bill_billables_1' => 
+  array (
+    'id' => '630ed9ee-caa2-6952-d316-5b547d78cc18',
+    'relationship_name' => 'aos_products_bill_billables_1',
+    'lhs_module' => 'AOS_Products',
+    'lhs_table' => 'aos_products',
+    'lhs_key' => 'id',
+    'rhs_module' => 'bill_Billables',
+    'rhs_table' => 'bill_billables',
+    'rhs_key' => 'id',
+    'join_table' => 'aos_products_bill_billables_1_c',
+    'join_key_lhs' => 'aos_products_bill_billables_1aos_products_ida',
+    'join_key_rhs' => 'aos_products_bill_billables_1bill_billables_idb',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => NULL,
+    'relationship_role_column_value' => NULL,
+    'reverse' => '0',
+    'deleted' => '0',
+    'readonly' => true,
+    'rhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
+    'from_studio' => true,
+    'is_custom' => true,
+    'relationship_only' => false,
+    'for_activities' => false,
+  ),
+  'aos_products_audit_auditmetrics_1' => 
+  array (
+    'rhs_label' => 'Audit Metrics',
     'lhs_label' => 'Products',
+    'lhs_subpanel' => 'default',
     'rhs_subpanel' => 'default',
     'lhs_module' => 'AOS_Products',
-    'rhs_module' => 'Tasks',
-    'relationship_type' => 'one-to-many',
+    'rhs_module' => 'audit_AuditMetrics',
+    'relationship_type' => 'many-to-many',
     'readonly' => true,
     'deleted' => false,
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
     'from_studio' => true,
-    'relationship_name' => 'aos_products_tasks_1',
+    'relationship_name' => 'aos_products_audit_auditmetrics_1',
   ),
 );

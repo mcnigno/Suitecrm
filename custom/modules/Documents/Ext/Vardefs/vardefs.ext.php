@@ -2,6 +2,12 @@
  //WARNING: The contents of this file are auto-generated
 
 
+ // created: 2018-10-13 19:36:42
+$dictionary['Document']['fields']['activity_field_c']['inline_edit']='1';
+$dictionary['Document']['fields']['activity_field_c']['labelValue']='Activity field';
+
+ 
+
 // created: 2018-02-23 09:25:32
 $dictionary["Document"]["fields"]["project_documents_1"] = array (
   'name' => 'project_documents_1',

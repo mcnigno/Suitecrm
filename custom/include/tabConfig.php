@@ -1,5 +1,5 @@
 <?php
-// created: 2018-07-12 21:04:00
+// created: 2018-09-17 12:50:14
 $GLOBALS['tabStructure'] = array (
   'LBL_TABGROUP_SALES' => 
   array (
@@ -37,9 +37,8 @@ $GLOBALS['tabStructure'] = array (
     array (
       0 => 'Home',
       1 => 'Emails',
-      2 => 'Documents',
-      3 => 'Project',
-      4 => 'AOK_KnowledgeBase',
+      2 => 'Project',
+      3 => 'AOK_KnowledgeBase',
     ),
   ),
   'LBL_TABGROUP_ACTIVITIES' => 
@@ -63,11 +62,12 @@ $GLOBALS['tabStructure'] = array (
     array (
       0 => 'Home',
       1 => 'bill_Billables',
-      2 => 'Emails',
-      3 => 'Notes',
-      4 => 'Project',
-      5 => 'AOR_Reports',
-      6 => 'AOK_KnowledgeBase',
+      2 => 'Documents',
+      3 => 'Emails',
+      4 => 'Notes',
+      5 => 'Project',
+      6 => 'AOR_Reports',
+      7 => 'AOK_KnowledgeBase',
     ),
   ),
   'LBL_GROUPTAB6_1518866176' => 

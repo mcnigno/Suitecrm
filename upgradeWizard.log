@@ -64,3 +64,9 @@ Thu, 18 Jan 2018 19:34:15 +0100 [UpgradeWizard] - Checking ALTER TABLE DROP COLU
 Thu, 18 Jan 2018 19:34:15 +0100 [UpgradeWizard] - Checking DROP TABLE permissions...
 Thu, 18 Jan 2018 19:34:15 +0100 [UpgradeWizard] - No permissions errors found!
 Thu, 18 Jan 2018 19:34:15 +0100 [UpgradeWizard] - Finished database permissions check.
+Sat, 13 Oct 2018 19:03:48 +0200 [UpgradeWizard] - setting session variables...
+Sat, 13 Oct 2018 19:03:48 +0200 [UpgradeWizard] - -----------------------------------------------------------------------------
+Sat, 13 Oct 2018 19:03:48 +0200 [UpgradeWizard] - Upgrade started. At start.php
+Sat, 13 Oct 2018 19:03:48 +0200 [UpgradeWizard] - at unlinkUWTempFiles()
+Sat, 13 Oct 2018 19:03:48 +0200 [UpgradeWizard] - finished!
+Sat, 13 Oct 2018 19:03:48 +0200 [UpgradeWizard] - resetting $_SESSION

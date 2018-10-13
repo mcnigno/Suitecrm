@@ -1,5 +1,5 @@
 <?php
-// created: 2018-07-12 21:03:59
+// created: 2018-09-17 12:50:14
 $sugar_config = array (
   'addAjaxBannedModules' => 
   array (
@@ -240,13 +240,13 @@ $sugar_config = array (
   'default_user_is_admin' => false,
   'default_user_name' => '',
   'demoData' => 'no',
-  'developerMode' => true,
+  'developerMode' => false,
   'disable_convert_lead' => false,
   'disable_export' => false,
   'disable_persistent_connections' => false,
   'display_email_template_variable_chooser' => false,
   'display_inbound_email_buttons' => false,
-  'dump_slow_queries' => false,
+  'dump_slow_queries' => true,
   'email_address_separator' => ',',
   'email_default_client' => 'sugar',
   'email_default_delete_attachments' => true,
@@ -270,7 +270,7 @@ $sugar_config = array (
     'timeout' => 86400,
   ),
   'js_custom_version' => 1,
-  'js_lang_version' => 9,
+  'js_lang_version' => 10,
   'languages' => 
   array (
     'en_us' => 'English (US)',

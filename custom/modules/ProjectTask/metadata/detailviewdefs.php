@@ -49,6 +49,11 @@ array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
+        'LBL_DETAILVIEW_PANEL1' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
       ),
       'syncDetailEditViews' => true,
     ),
@@ -149,55 +154,37 @@ array (
           ),
         ),
       ),
+      'lbl_detailview_panel1' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'date_entered',
+            'label' => 'LBL_DATE_ENTERED',
+          ),
+          1 => 
+          array (
+            'name' => 'created_by_name',
+            'label' => 'LBL_CREATED',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'date_modified',
+            'label' => 'LBL_DATE_MODIFIED',
+          ),
+          1 => 
+          array (
+            'name' => 'modified_by_name',
+            'label' => 'LBL_MODIFIED_NAME',
+          ),
+        ),
+      ),
     ),
   ),
 );
-$viewdefs['ProjectTask']['DetailView']['templateMeta'] = array (
-  'maxColumns' => '2',
-  'widths' => 
-  array (
-    0 => 
-    array (
-      'label' => '10',
-      'field' => '30',
-    ),
-    1 => 
-    array (
-      'label' => '10',
-      'field' => '30',
-    ),
-  ),
-  'includes' => 
-  array (
-    0 => 
-    array (
-      'file' => 'modules/ProjectTask/ProjectTask.js',
-    ),
-  ),
-  'form' => 
-  array (
-    'buttons' => 
-    array (
-      0 => 'EDIT',
-      1 => 'DUPLICATE',
-      2 => 'DELETE',
-    ),
-    'hideAudit' => true,
-  ),
-  'useTabs' => true,
-  'tabDefs' => 
-  array (
-    'DEFAULT' => 
-    array (
-      'newTab' => true,
-      'panelDefault' => 'expanded',
-    ),
-    'LBL_PANEL_TIMELINE' => 
-    array (
-      'newTab' => true,
-      'panelDefault' => 'expanded',
-    ),
-  ),
-  'syncDetailEditViews' => true,
-);
+;
 ?>
